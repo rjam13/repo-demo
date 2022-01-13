@@ -1,16 +1,19 @@
 # Welcome to this Demo!
 
+pushing: 
+git status, git add ., git commit -m "title" -m "description", git push
+
 some text etc:
 Commands
-clone: copy a repository into your local environment
-Add: track files and changes
-Commit: save files to Git
-Push: upload commits to a remote repo, github
-Pull: opposite of push, pull code from remote repo
-ls -la: list all files, including hidden ones
-git status: shows all files created, updated, deleted but haven't been saved
-git add: tell which file to track changes
-git add . = track all files that is shown in git status
+- clone: copy a repository into your local environment
+- Add: track files and changes
+- Commit: save files to Git
+- Push: upload commits to a remote repo, github
+- Pull: opposite of push, pull code from remote repo
+- ls -la: list all files, including hidden ones
+- git status: shows all files created, updated, deleted but haven't been saved
+- git add: tell which file to track changes
+- git add . = track all files that is shown in git status
 
 commiting from command line in terminal example:
 git commit -m "commiting from VSCode to learn; index.html" -m "description"
