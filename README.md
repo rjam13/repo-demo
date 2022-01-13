@@ -56,6 +56,9 @@ Git Branching:
 - git branch: show how many branches
 - git checkout name: switch branches
 - git checkout -b name/ticketnumber: new branch
+- git diff name: shows changes
+
+whenever you add, commit in a branch it stay all in that branch
 
 
 
