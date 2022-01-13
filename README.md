@@ -1,6 +1,6 @@
 # Welcome to this Demo!
 
-some text:
+some text etc:
 Commands
 clone: copy a repository into your local environment
 Add: track files and changes
