@@ -60,6 +60,7 @@ Git Branching:
 
 whenever you add, commit in a branch it stay all in that branch
 
+pushing requires specification
 
 
 ## Subheader Poggers
