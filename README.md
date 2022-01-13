@@ -14,6 +14,10 @@ Commands
 - git status: shows all files created, updated, deleted but haven't been saved
 - git add: tell which file to track changes
 - git add . = track all files that is shown in git status
+Initializing github repo from local
+- git init: initializes git for a repository
+- git remote -v: show all git repos connected
+- git push -u origin master: set default "git push"
 
 commiting from command line in terminal example:
 git commit -m "commiting from VSCode to learn; index.html" -m "description"
