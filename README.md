@@ -59,8 +59,21 @@ Git Branching:
 - git diff name: shows changes
 - git pull: pull the changes from github to local branch (may have to set up upstream)
 - git branch -d name: deleting a branch
-
 - git commit -am: works with modified files, adds and commits at the same time
+- git merge master: while master gets updated, this command allows you pull whatever is going in master and pull it into master
+
+merge conflict: use github interface, use terminal, (bestway) use code editor; can appear after using git merge
+
+undoing commits:
+- git reset: remove the adds to commit
+- git reset HEAD~1: head= pointer to last commit, ~1 = move commit to one head before / uncommit
+- git log: show all commits
+    - there are hashes in the log that can be use with *git reset hashhere* to specify which commit to undo, 
+        - code is still there but the changes are unstaged
+- git reset --hard => completely remove changes, go back in time
+
+Forking:
+copying an entire repository, allows you to do whatever you want with whatever repo
 
 whenever you add, commit in a branch it stays all in that branch
 pushing requires specification
