@@ -59,8 +59,13 @@ Git Branching:
 - git diff name: shows changes
 - git pull: pull the changes from github to local branch (may have to set up upstream)
 - git branch -d name: deleting a branch
-
 - git commit -am: works with modified files, adds and commits at the same time
+- git merge master: while master gets updated, this command allows you pull whatever is going in master and pull it into master
+
+merge conflict: use github interface, use terminal, (bestway) use code editor; can appear after using git merge
+
+
+
 
 whenever you add, commit in a branch it stays all in that branch
 pushing requires specification
