@@ -39,5 +39,31 @@ First file: README.md (markdown)
 #= main header
 ##= subheader
 
+GitHub Workflow:
+commit changes, pull request
+no need to add, just commit changes
+optionally pull request 
+Local Git Workflow:
+git add, git commit, git push, pull request
+
+Git Branching:
+- branch- copy of the repository or certain parts, each are independent to changes from other branches
+- Master branch- default branch of the entire repository
+- useful for testing, adding features without messing up everything
+- feature branch- branch to implement a feature
+- hot fix branch- quick fix on bugs
+
+- git branch: show how many branches
+- git checkout name: switch branches
+- git checkout -b name/ticketnumber: new branch
+- git diff name: shows changes
+
+whenever you add, commit in a branch it stay all in that branch
+
+pushing requires specification
+
+
 ## Subheader Poggers
 
+Local development
+1. open index.html
