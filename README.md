@@ -57,9 +57,12 @@ Git Branching:
 - git checkout name: switch branches
 - git checkout -b name/ticketnumber: new branch
 - git diff name: shows changes
+- git pull: pull the changes from github to local branch (may have to set up upstream)
+- git branch -d name: deleting a branch
 
-whenever you add, commit in a branch it stay all in that branch
+- git commit -am: works with modified files, adds and commits at the same time
 
+whenever you add, commit in a branch it stays all in that branch
 pushing requires specification
 
 
